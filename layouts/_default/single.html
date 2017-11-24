@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    
+    <body role="document">
+        <header>
+			{{ partial "header.html" . }}
+			<hr/>
+        </header>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-12 col-lg-12 text-left">
+					<h1>{{ .Title }}</h1>
+				</div>
+			</div>
+
+			{{ if eq .Section "estandards"}}
+				{{ partial "estandards_i_home.html" . }}
+			{{ end }}
+			{{ if eq .Section "procediments"}}
+				{{ partial "procediments_i_home.html" . }}
+			{{ end }}
+			
+			<div class="row">
+				<div class="col-xs-12 col-md-12 col-lg-12 text-left">
+					{{ .Description | markdownify }}
+					<br/>
+				</div>
+			</div>
+			
+			<div class="row">
+				<hr/>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12 text-left">
+					{{ .Content | markdownify }}
+				</div>
+			</div>
+		</div>
+		
+        <footer>
+			<br/><br/>
+			{{ partial "footer.html" . }}
+        </footer>
+    </body>
+</html>

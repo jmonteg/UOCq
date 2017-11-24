@@ -1,0 +1,8 @@
+baseURL = "http://localhost"
+languageCode = "ca-es"
+title = "UOCq - Portal de Qualitat de l'Àrea de Tecnologia de la UOC"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+sectiondir = "section"

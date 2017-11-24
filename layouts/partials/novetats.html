@@ -1,0 +1,7 @@
+{{ $p := .Site.GetPage "page" "novetats.md" }}
+
+	<h1>Novetats</h1>
+	Aquestes son les novetats<br/>
+	<br/>
+	{{ $p.Params.body | markdownify }}<br/>
+	<br/><br/>

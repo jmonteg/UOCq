@@ -1,0 +1,23 @@
+@media (max-width: 767px) {                  
+   .content-to-hide {
+      display: none;
+   }
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+	bottom: 0px;
+	width: 100%;
+	line-height: 31px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid black;
+}

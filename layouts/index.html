@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+    {{ $p := .Site.GetPage "page" "home.md" }}
+
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    
+    <body role="document">
+        <header>
+			{{ partial "header.html" . }}
+        </header>
+
+		{{ $p.Content | markdownify }}
+        
+        <footer>
+			{{ partial "footer.html" . }}
+        </footer>
+    </body>
+</html>
