@@ -1,9 +1,11 @@
 ---
 title: UOCq - Portal de qualitat de l'Àrea de Tecnologia de la UOC
+published: true
 ---
 
 ---
 # Benvinguts al portal de Qualitat de l'Àrea de Tecnologia de la UOC
+hhhhh
 
 En aquest portal podreu trobar totes les eines necessàries per la gestió i execució dels projectes tecnològics que es coordinen des de l'Àrea de Tecnologia de la UOC
 
