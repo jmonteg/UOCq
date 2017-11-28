@@ -9,32 +9,32 @@ En aquest portal podreu trobar totes les eines necessàries per la gestió i exe
 
 <div class="row" style="margin: 0px; padding: 20px;">
 	<div class="bg-primary inverse col-xs-12 col-md-3 col-lg-3" style="padding:20px; height: 350px;">
-		<h3>Estàndards i convenis</h3>
-		En aquesta secció trobareu tot allò relacionat amb la descripció dels convenis i normativa de la UOC per a la gestió i execució de projectes. Normatives de gestió de projectes, desenvolupament i construcció de productes, necessitats tècniques i d’arquitectura i assegurament de la qualitat<br/>
+		<h4>Estàndards i convenis</h4>
+		<p>En aquesta secció trobareu tot allò relacionat amb la descripció dels convenis i normativa de la UOC per a la gestió i execució de projectes. Normatives de gestió de projectes, desenvolupament i construcció de productes, necessitats tècniques i d’arquitectura i assegurament de la qualitat</p>
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/estandards"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
 	<div class="bg-secondary col-xs-12 col-md-3 col-lg-3" style="padding:20px; height: 350px;">
-		<h3>Procediments i mètodes</h3>
-		Descripció detallada dels procediments, descàrrega de plantilles i diagrama de flux del cicle de vida
+		<h4>Procediments i mètodes</h4>
+		<p>Descripció detallada dels procediments, descàrrega de plantilles i diagrama de flux del cicle de vida</p>
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/procediments"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
 	<div class="bg-alumni col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
-		<h3>Caixa d'eines per la gestió</h3>
-		En aquesta secció trobareu el repositori dels elements de treball del cap de projectes, l’arquitecte, el proveïdor i el gestor de la qualitat
+		<h4>Caixa d'eines per la gestió</h4>
+		<p>En aquesta secció trobareu el repositori dels elements de treball del cap de projectes, l’arquitecte, el proveïdor i el gestor de la qualitat</p>
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/caixa"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
 	<div class="bg-x col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
 		<h4>Mètriques</h4>
-		Consens baremat que ens ajuden a determinar l'assoliment d'alguns aspectes del projecte
+		<p>Consens baremat que ens ajuden a determinar l'assoliment d'alguns aspectes del projecte</p>
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/metriques"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
 	<div class="bg-ri col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
-		<h3>Suport i ajuda</h3>
-		Repositori d’informació, suport i ajuda
+		<h4>Suport i ajuda</h4>
+		<p>Repositori d’informació, suport i ajuda</p>
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/suport"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
