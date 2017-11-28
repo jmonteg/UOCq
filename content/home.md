@@ -27,7 +27,7 @@ En aquest portal podreu trobar totes les eines necessàries per la gestió i exe
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/caixa"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
 	<div class="bg-x col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
-		<h3>Mètriques</h3>
+		<h4>Mètriques</h4>
 		Consens baremat que ens ajuden a determinar l'assoliment d'alguns aspectes del projecte
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/metriques"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
