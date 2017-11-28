@@ -1,11 +1,9 @@
 ---
 title: UOCq - Portal de qualitat de l'Àrea de Tecnologia de la UOC
-published: true
 ---
 
 ---
 # Benvinguts al portal de Qualitat de l'Àrea de Tecnologia de la UOC
-hhhhh
 
 En aquest portal podreu trobar totes les eines necessàries per la gestió i execució dels projectes tecnològics que es coordinen des de l'Àrea de Tecnologia de la UOC
 
@@ -22,19 +20,19 @@ En aquest portal podreu trobar totes les eines necessàries per la gestió i exe
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/procediments"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
-	<div class="bg-secondary-light col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
+	<div class="bg-alumni col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
 		<h3>Caixa d'eines per la gestió</h3>
 		En aquesta secció trobareu el repositori dels elements de treball del cap de projectes, l’arquitecte, el proveïdor i el gestor de la qualitat
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/caixa"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
-	<div class="bg-grey-dark inverse col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
+	<div class="bg-x col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
 		<h3>Mètriques</h3>
 		Consens baremat que ens ajuden a determinar l'assoliment d'alguns aspectes del projecte
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/metriques"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
-	<div class="bg-grey col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
+	<div class="bg-ri col-xs-12 col-md-2 col-lg-2" style="padding:20px; height: 350px;">
 		<h3>Suport i ajuda</h3>
 		Repositori d’informació, suport i ajuda
 		<br/>
@@ -51,6 +49,7 @@ En aquest portal podreu trobar totes les eines necessàries per la gestió i exe
 	</div>
 	<div class="col-xs-12 col-md-8 col-lg-8">
 		<h3>Destacats</h3>
+		<a href="http://confluence.uoc.edu" target="_Blank"><h4><i class="material-icons">touch_app</i> Accés a portal intern de l'Àrea de Tecnologia de la UOC</h4></a> (requereix accés als sistemes de la UOC)
 		<li>Presentació del procediment per la gestió i execució dels projectes tecnològics a la UOC: <a href="/estandards/nomenclatura/"><i class="material-icons">touch_app</i> Nomenclatura de documents</a></li>
 		<li>Cicle de vida de la gestió de projectes tecnològics a la UOC. En detall: <a href="/procediments/gestio/"><i class="material-icons">touch_app</i> Cicle de vida</a></li>
 		<li>Cicle de vida de l'execució de projectes tecnològics a la UOC. En detall: <a href="/procediments/execucio/"><i class="material-icons">touch_app</i> Cicle de vida</a></li>
