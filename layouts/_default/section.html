@@ -28,12 +28,12 @@
 			<div class="row">
 				<br/><br/>
 				{{range .Data.Pages }}
-					<div class="col-xs-12 col-md-4" style="height: 300px;">
+					<div class="col-xs-12 col-md-4">
 						<div class="card row" role="region" aria-label="{{.Title}}">
-						  <div class="card__image col-xs-12 col-md-4">
+						  <div class="card__image col-xs-4">
 							<img src="{{ .Params.background }}" style="height: auto;" />
 						  </div>
-						  <div class="card__contents col-xs-12 col-md-8">
+						  <div class="card__contents col-xs-8">
 							<a href="{{.Site.Params.projectDir}}{{.URL}}"><h3>{{.Title}}</h3></a>
 							<p>{{ .Description }}</p>
 							{{ if ne .Params.Desc_ampliada ""}}
