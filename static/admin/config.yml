@@ -1,6 +1,8 @@
 backend:
-  branch: master
   name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
 
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads"
@@ -21,4 +23,3 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Contingut", name: "body", widget: "markdown"}
     meta:
       - {label: "Date", name: "date", widget: "datetime"}
-
