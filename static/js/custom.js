@@ -52,7 +52,7 @@ if(getUrlParams("cms")==="true"){
         }
     }else{
         //home
-        newlink = "/admin/#/collections/home/entries/home";
+        editlink = "/admin/#/collections/home/entries/home";
     }
 
     $("#cms-editor-link-edit").attr("href", editlink);
