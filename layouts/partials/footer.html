@@ -18,7 +18,18 @@
 
 <!--div class="pull-right editpage" style="display:hidden">
 	<a href="/admin/#/collections/collection/entries/entry"><i class="fa fa-pencil" aria-hidden="true"></i> Edita aquesta pàgina</a>
-</div>
+</div-->
 
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>  
 
-<script src="/js/custom.js"></script-->
+<script src="/js/custom.js"></script>
