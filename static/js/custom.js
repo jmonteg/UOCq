@@ -28,6 +28,16 @@ if(getUrlParams("cms")==="true"){
         }
     });
     
+    if(currentHost.indexOf(":")>-1){
+        currentHost = currentHost.slice(0, currentHost.indexOf(":"))
+    }
+
+    $("a").each(function() {
+        if(this.hostname===currentHost && this.href.indexOf("/admin/#/")===-1){
+            this.href = this.href + "?cms=true"
+        }
+    })
+
     if(path.length>0){
         var newlink = $("#cms-editor-link").attr("href").replace("@@collection@@", path[0]);
         if(path.length>1){
@@ -38,11 +48,5 @@ if(getUrlParams("cms")==="true"){
         $("#cms-editor-link").attr("href", newlink)
         $("#cms-editor").css("display","block")
     }
-    
-    currentHost = currentHost.slice(0, currentHost.indexOf(":"))
-    $("a").each(function() {
-        if(this.hostname===currentHost && this.href.indexOf("/admin/#/")===-1){
-            this.href = this.href + "?cms=true"
-        }
-    })
+
 }
