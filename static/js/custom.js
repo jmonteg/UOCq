@@ -45,8 +45,12 @@ if(getUrlParams("cms")==="true"){
         }else{
             newlink = newlink.replace("/entries/@@entry@@", "");
         }
-        $("#cms-editor-link").attr("href", newlink)
-        $("#cms-editor").css("display","block")
+    }else{
+        //home
+        newlink = "/admin/#/collections/home/entries/home";
     }
+
+    $("#cms-editor-link").attr("href", newlink)
+    $("#cms-editor").css("display","block")
 
 }

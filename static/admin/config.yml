@@ -6,9 +6,81 @@ public_folder: "/images/uploads"
 #publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "home"
+    label: "Home"
+    folder: "content"
+    create: true
+    slug: "home.md"
+    fields:
+      - {label: "Títol", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Contingut", name: "body", widget: "markdown"}
+    meta:
+      - {label: "Date", name: "date", widget: "datetime"}
+
+
   - name: "estandards"
     label: "Estàndards i convenis"
     folder: "content/estandards"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Títol", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Descripció", name: "description", widget: "text", required: false}
+      - {label: "Descripció ampliada", name: "desc_ampliada", widget: "text", required: false}
+      - {label: "Imatge de Background", name: "background", widget: "image", required: false}
+      - {label: "Ordre", name: "weight", widget: "number", required: false}
+      - {label: "Contingut", name: "body", widget: "markdown"}
+    meta:
+      - {label: "Date", name: "date", widget: "datetime"}
+
+  - name: "caixa"
+    label: "Caixa d'eines"
+    folder: "content/caixa"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Títol", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Descripció", name: "description", widget: "text", required: false}
+      - {label: "Descripció ampliada", name: "desc_ampliada", widget: "text", required: false}
+      - {label: "Imatge de Background", name: "background", widget: "image", required: false}
+      - {label: "Ordre", name: "weight", widget: "number", required: false}
+      - {label: "Contingut", name: "body", widget: "markdown"}
+    meta:
+      - {label: "Date", name: "date", widget: "datetime"}
+
+  - name: "procediments"
+    label: "Procediments"
+    folder: "content/procediments"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Títol", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Descripció", name: "description", widget: "text", required: false}
+      - {label: "Descripció ampliada", name: "desc_ampliada", widget: "text", required: false}
+      - {label: "Imatge de Background", name: "background", widget: "image", required: false}
+      - {label: "Ordre", name: "weight", widget: "number", required: false}
+      - {label: "Contingut", name: "body", widget: "markdown"}
+    meta:
+      - {label: "Date", name: "date", widget: "datetime"}
+
+  - name: "metriques"
+    label: "Mètriques"
+    folder: "content/metriques"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Títol", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Descripció", name: "description", widget: "text", required: false}
+      - {label: "Descripció ampliada", name: "desc_ampliada", widget: "text", required: false}
+      - {label: "Imatge de Background", name: "background", widget: "image", required: false}
+      - {label: "Ordre", name: "weight", widget: "number", required: false}
+      - {label: "Contingut", name: "body", widget: "markdown"}
+    meta:
+      - {label: "Date", name: "date", widget: "datetime"}
+
+  - name: "suport"
+    label: "Suport"
+    folder: "content/suport"
     create: true
     slug: "{{slug}}"
     fields:
