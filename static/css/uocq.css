@@ -21,3 +21,7 @@ hr {
     border: 0;
     border-top: 1px solid black;
 }
+
+.pull-right {
+    float: right; 
+}

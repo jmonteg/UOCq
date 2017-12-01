@@ -22,35 +22,41 @@ if(getUrlParams("cms")==="true"){
 
     var currentHost = window.location.host;
     var path = window.location.pathname;
-    path = path.split("/").filter(function(it){
-        if(it){
-            return it;
+    path = path.split("/").filter(function(value){
+        if(value){
+            return value;
         }
     });
     
     if(currentHost.indexOf(":")>-1){
-        currentHost = currentHost.slice(0, currentHost.indexOf(":"))
+        currentHost = currentHost.slice(0, currentHost.indexOf(":"));
     }
 
     $("a").each(function() {
         if(this.hostname===currentHost && this.href.indexOf("/admin/#/")===-1){
-            this.href = this.href + "?cms=true"
+            this.href = this.href + "?cms=true";
         }
     })
 
+    var strpagesection = "pàgina";
     if(path.length>0){
-        var newlink = $("#cms-editor-link").attr("href").replace("@@collection@@", path[0]);
+        var editlink = $("#cms-editor-link-edit").attr("href").replace("@@collection@@", path[0]);
         if(path.length>1){
-            newlink = newlink.replace("@@entry@@", path[1]);
+            editlink = editlink.replace("@@entry@@", path[1]);
         }else{
-            newlink = newlink.replace("/entries/@@entry@@", "");
+            editlink = editlink.replace("/entries/@@entry@@", "");
+            $("#cms-editor-link-add").css("display","block");
+            var addlink = $("#cms-editor-link-add").attr("href").replace("@@collection@@", path[0]);
+            $("#cms-editor-link-add").attr("href", addlink);
+            strpagesection = "secció";
         }
     }else{
         //home
         newlink = "/admin/#/collections/home/entries/home";
     }
 
-    $("#cms-editor-link").attr("href", newlink)
-    $("#cms-editor").css("display","block")
-
+    $("#cms-editor-link-edit").attr("href", editlink);
+    var link_text = $("#cms-editor-link-edit-text").text();
+    $("#cms-editor-link-edit-text").text(link_text.replace("@@pagesection@@", strpagesection));
+    $("#cms-editor").css("display","block");
 }

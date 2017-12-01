@@ -17,7 +17,12 @@
 </div>
 
 <div class="pull-right editpage" style="display:none" id="cms-editor">
-	<a href="/admin/#/collections/@@collection@@/entries/@@entry@@" id="cms-editor-link"><i class="fa fa-pencil" aria-hidden="true"></i> Edita aquesta pàgina</a>
+	<a href="/admin/#/collections/@@collection@@/new" id="cms-editor-link-add" style="display: none">
+		<i class="material-icons">mode add</i> Afegeix una plana a aquesta secció
+	</a>
+	<a href="/admin/#/collections/@@collection@@/entries/@@entry@@" id="cms-editor-link-edit">
+		<i class="material-icons">mode edit</i> <span id="cms-editor-link-edit-text">Edita aquesta @@pagesection@@</span>
+	</a>
 </div>
 
 <script>
