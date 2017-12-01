@@ -19,10 +19,12 @@ function getUrlParams( prop ) {
 
 if(getUrlParams("cms")==="true"){
 	console.log("loading cms objects...")
+
+    var currentHost = window.location.host;
     var path = window.location.pathname;
     path = path.split("/").filter(function(it){
         if(it){
-            return it
+            return it;
         }
     });
     
@@ -36,5 +38,11 @@ if(getUrlParams("cms")==="true"){
         $("#cms-editor-link").attr("href", newlink)
         $("#cms-editor").css("display","block")
     }
-
+    
+    currentHost = currentHost.slice(0, currentHost.indexOf(":"))
+    $("a").each(function() {
+        if(this.hostname===currentHost && this.href.indexOf("/admin/#/")===-1){
+            this.href = this.href + "?cms=true"
+        }
+    })
 }
