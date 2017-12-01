@@ -17,8 +17,24 @@ function getUrlParams( prop ) {
     return ( prop && prop in params ) ? params[ prop ] : params;
 }
 
-console.log(getUrlParams("cms"))
-if(getUrlParams("cms")){
+if(getUrlParams("cms")==="true"){
 	console.log("loading cms objects...")
-	console.log(window.location)
+    var path = window.location.pathname;
+    path = path.split("/").filter(function(it){
+        if(it){
+            return it
+        }
+    });
+    
+    if(path.length>0){
+        var newlink = $("#cms-editor-link").attr("href").replace("@@collection@@", path[0]);
+        if(path.length>1){
+            newlink = newlink.replace("@@entry@@", path[1]);
+        }else{
+            newlink = newlink.replace("/entries/@@entry@@", "");
+        }
+        $("#cms-editor-link").attr("href", newlink)
+        $("#cms-editor").css("display","block")
+    }
+
 }
