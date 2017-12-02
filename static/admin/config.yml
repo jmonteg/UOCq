@@ -9,25 +9,13 @@ collections: # A list of collections the CMS should be able to edit
   - name: "home"
     label: "Home"
     folder: "content"
-    create: true
+    create: false
     slug: "home.md"
     fields:
       - {label: "Títol", name: "title", widget: "string", tagname: "h1"}
       - {label: "Capçalera", name: "head", widget: "string"}
       - {label: "Sots capçalera", name: "subhead", widget: "string"}
       - {label: "Contingut", name: "body", widget: "markdown"}
-    meta:
-      - {label: "Date", name: "date", widget: "datetime"}
-
-  - name: "nova_seccio"
-    label: "Nova secció"
-    folder: "content"
-    create: true
-    slug: "{{folder}}/_index.md"
-    fields:
-      - {label: "Títol", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Descripció", name: "description", widget: "text", required: false}
-      - {label: "Directori", name: "folder", widget: "text", required: true}
     meta:
       - {label: "Date", name: "date", widget: "datetime"}
 
