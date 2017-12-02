@@ -11,19 +11,14 @@
         </header>
 
 		<div class="container">
+            {{ partial "breadcrumbs" . }}
+
 			<div class="row">
 				<div class="col-xs-12 col-md-12 col-lg-12 text-left">
 					<h1>{{ .Title }}</h1>
 				</div>
 			</div>
 
-			{{ if eq .Section "estandards"}}
-				{{ partial "estandards_i_home.html" . }}
-			{{ end }}
-			{{ if eq .Section "procediments"}}
-				{{ partial "procediments_i_home.html" . }}
-			{{ end }}
-			
 			<div class="row">
 				<div class="col-xs-12 col-md-12 col-lg-12 text-left">
 					{{ .Description | markdownify }}

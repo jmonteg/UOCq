@@ -1,0 +1,26 @@
+					<div class="col-xs-12 col-md-4">
+						<div class="card row" role="region" aria-label="{{.Title}}">
+						  <div class="card__image col-xs-4">
+							<img src="{{ .Params.background }}" style="height: auto;" />
+						  </div>
+						  <div class="card__contents col-xs-8">
+							<a href="{{.Site.Params.projectDir}}{{.URL}}"><h3>{{.Title}}</h3></a>
+							<p>{{ .Description }}</p>
+							{{ if ne .Params.Desc_ampliada ""}}
+								<div class="collapse" data-collapse>
+								  <div id="collapse__content1" class="collapse__content" aria-hidden="true" data-collapse-content>
+									<div data-collapse-inner>
+									  <p>{{ .Params.Desc_ampliada }}</p>
+									</div>
+								  </div>
+								  <div style="position: absolute; bottom: 0; right: 0;">
+									  <a href="#" class="float-right" aria-expanded="false" aria-controls="collapse__content1" data-collapse-trigger aria-label="Mostrar más contenido">
+										<span aria-hidden="true" class="is-active-hidden"><i class="material-icons">keyboard_arrow_down</i></span>
+										<span aria-hidden="true" class="is-active-visible"><i class="material-icons">keyboard_arrow_up</i></span>
+									  </a>
+								  </div>
+								</div>
+							{{ end }}
+						  </div>
+						</div>
+					</div>

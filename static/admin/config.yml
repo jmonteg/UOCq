@@ -17,6 +17,17 @@ collections: # A list of collections the CMS should be able to edit
     meta:
       - {label: "Date", name: "date", widget: "datetime"}
 
+  - name: "nova_seccio"
+    label: "Nova secció"
+    folder: "content"
+    create: true
+    slug: "{{folder}}/_index.md"
+    fields:
+      - {label: "Títol", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Descripció", name: "description", widget: "text", required: false}
+      - {label: "Directori", name: "folder", widget: "text", required: true}
+    meta:
+      - {label: "Date", name: "date", widget: "datetime"}
 
   - name: "estandards"
     label: "Estàndards i convenis"
