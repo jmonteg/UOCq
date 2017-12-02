@@ -9,7 +9,7 @@
 	{{if eq $section (index $aux $level) }}
 		
 			<span class="btn btn-lg btn--primary">
-			{{if ne .URL $dir }}<a href="{{.Site.Params.projectDir}}{{.URL}}"><i class="material-icons" style="vertical-align:middle;font-size: 24px;">keyboard_arrow_left</i>{{ end }}
+			{{if ne .URL $dir }}<a href="{{.Site.Params.projectDir}}{{.URL}}" class="btn--primary"><i class="material-icons" style="vertical-align:middle;font-size: 24px;">keyboard_arrow_left</i>{{ end }}
 			{{ .Title }}
 			{{if ne .URL $dir }}</a>{{ end }}
 			</span>
