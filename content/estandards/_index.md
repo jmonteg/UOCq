@@ -1,6 +1,6 @@
 ---
-Title : Estàndards i convenis
-Description : En aquesta secció trobareu tot allò relacionat amb la descripció dels convenis i normativa de la UOC per a la gestió i execució de projectes. Normatives de gestió de projectes, desenvolupament i construcció de productes, necessitats tècniques i d’arquitectura i assegurament de la qualitat
+title : Estàndards i convenis
+description : En aquesta secció trobareu tot allò relacionat amb la descripció dels convenis i normativa de la UOC per a la gestió i execució de projectes. Normatives de gestió de projectes, desenvolupament i construcció de productes, necessitats tècniques i d’arquitectura i assegurament de la qualitat
 weight: 1
 col_md: 3
 col_lg: 3
