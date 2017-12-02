@@ -9,7 +9,7 @@ adreces:
   - icon: mail
     link: '#'
     title: Oficina de qualitat de l'Àrea de Tecnologia de la UOC
-  - icon: twitter
+  - icon: ''
     link: 'https://twitter.com/UOCit'
     title: '@UOCit'
 destacats:

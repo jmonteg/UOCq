@@ -28,8 +28,26 @@
         {{ end }}
         </div>
 
-		{{ $p.Content | markdownify }}
-        
+
+        <div class="row" style="margin: 0px; padding: 20px;">
+            <div class="col-xs-12 col-md-6 col-lg-6">
+                <h4>Adreçes d'interés</h4>
+                <ul>
+                    {{ range $p.Params.adreces }}
+                    <li class="align-left"><a href="{{.link}}" class="align-left">{{if .icon}}<i class="material-icons">{{.icon}}</i>{{end}}{{.title}}</a></li>
+                    {{ end }}                
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-6">
+                <h4>Destacats</h4>
+                <ul>
+                    {{ range $p.Params.destacats }}
+                    <li><a href="{{.link}}"><i class="material-icons">{{.icon}}</i>{{.title}}</a></li>
+                    {{ end }}                
+                </ul>
+            </div>
+            <br/><br/>
+        </div>
 
 
         <footer>
