@@ -23,7 +23,7 @@ destacats:
     link: /estandards/nomenclatura
     title: >-
       Presentació del procediment per la gestió i execució dels projectes
-      tecnològics a la UOC:
+      tecnològics a la UOC
   - icon: touch_app
     link: /procediments/gestio
     title: Cicle de vida de la gestió de projectes tecnològics a la UOC
