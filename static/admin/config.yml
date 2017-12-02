@@ -13,6 +13,8 @@ collections: # A list of collections the CMS should be able to edit
     slug: "home.md"
     fields:
       - {label: "Títol", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Capçalera", name: "head", widget: "string"}
+      - {label: "Sots capçalera", name: "subhead", widget: "string"}
       - {label: "Contingut", name: "body", widget: "markdown"}
     meta:
       - {label: "Date", name: "date", widget: "datetime"}

@@ -1,7 +1,10 @@
 ---
 Title : Suport i ajuda
 Description : Repositori d’informació, suport i ajuda
+weight: 5
+col_md: 2
+col_lg: 2
+bg: bg-ri
 bgcolor : "#38ff90"
-url : "/suport"
 ---
 hola des de suport.md
