@@ -12,12 +12,35 @@ adreces:
   - icon: ''
     link: 'https://twitter.com/UOCit'
     title: '@UOCit'
+  - icon: touch_app
+    link: 'https://sites.google.com/a/uoc.edu/si'
+    title: Intranet de l'Àrea de Tecnologia de la UOC
 destacats:
   - icon: touch_app
     link: 'http://confluence.uoc.edu'
     title: Portal intern de l'Àrea de Tecnologia de la UOC
+  - icon: touch_app
+    link: /estandards/nomenclatura
+    title: >-
+      Presentació del procediment per la gestió i execució dels projectes
+      tecnològics a la UOC:
+  - icon: touch_app
+    link: /procediments/gestio
+    title: Cicle de vida de la gestió de projectes tecnològics a la UOC
+  - icon: touch_app
+    link: /procediments/execucio
+    title: Cicle de vida de l'execució de projectes tecnològics a la UOC
+  - icon: touch_app
+    link: /caixa/base_documental_gestio
+    title: >-
+      Descarrega la base documental per la gestió de projectes tecnològics a la
+      UOC
+  - icon: touch_app
+    link: /caixa/base_documental_execucio
+    title: >-
+      Descarrega la base documental per l'execució de projectes tecnològics a la
+      UOC
 ---
-
 <!--# Benvinguts al portal de Qualitat de l'Àrea de Tecnologia de la UOC
 
 En aquest portal podreu trobar totes les eines necessàries per la gestió i execució dels projectes tecnològics que es coordinen des de l'Àrea de Tecnologia de la UOC
@@ -53,8 +76,7 @@ En aquest portal podreu trobar totes les eines necessàries per la gestió i exe
 		<br/>
 		<p style="position: absolute; bottom: 0px; right: 15px;"><a href="/suport"><i class="material-icons" style="font-size: 36px;">more</i></a></p>
 	</div>
-</div-->
-
+</div>
 
 <div class="row" style="margin: 0px; padding: 20px;">
 	<div class="col-xs-12 col-md-4 col-lg-4">
@@ -76,4 +98,4 @@ En aquest portal podreu trobar totes les eines necessàries per la gestió i exe
 		<br/><br/><br/>
 	</div>
 	<br/><br/>
-</div>
+</div-->
