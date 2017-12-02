@@ -5,6 +5,17 @@ subhead: >-
   En aquest portal podreu trobar totes les eines necessàries per la gestió i
   execució dels projectes tecnològics que es coordinen des de l'Àrea de
   Tecnologia de la UOC
+adreces:
+  - icon: mail
+    link: '#'
+    title: Oficina de qualitat de l'Àrea de Tecnologia de la UOC
+  - icon: twitter
+    link: 'https://twitter.com/UOCit'
+    title: '@UOCit'
+destacats:
+  - icon: touch_app
+    link: 'http://confluence.uoc.edu'
+    title: Portal intern de l'Àrea de Tecnologia de la UOC
 ---
 
 <!--# Benvinguts al portal de Qualitat de l'Àrea de Tecnologia de la UOC
