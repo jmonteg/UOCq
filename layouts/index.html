@@ -42,7 +42,11 @@
                 <h4>Destacats</h4>
                 <ul class="home_destacats">
                     {{ range $p.Params.destacats }}
-                    <li><a href="{{.link}}"><i class="material-icons">{{.icon}}</i>{{.title}}</a></li>
+						{{ if eq .destacat true }}
+							<li><a href="{{.link}}" class="destacat"><i class="material-icons">{{.icon}}</i>{{.title}}</a></li>
+						{{ else }}
+							<li><a href="{{.link}}"><i class="material-icons">{{.icon}}</i>{{.title}}</a></li>
+						{{ end }}
                     {{ end }}                
                 </ul>
             </div>

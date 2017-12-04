@@ -33,3 +33,7 @@ hr {
 ul.home_destacats li:first-child{
   font-size: 1em;
 }
+
+.destacat {
+  font-size: 2em;
+}
