@@ -5,7 +5,6 @@ description: >-
   flux del cicle de vida
 weight: 2
 col_md: 3
-col_lg: 3
 bg: bg-secondary
 bgcolor: "#73EDFF"
 ---

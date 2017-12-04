@@ -6,8 +6,7 @@ description: >-
   gestió de projectes, desenvolupament i construcció de productes, necessitats
   tècniques i d’arquitectura i assegurament de la qualitat
 weight: 1
-col_md: 2
-col_lg: 2
+col_md: 3
 bg: bg-primary inverse
 bgcolor: "#000078"
 ---
