@@ -19,25 +19,31 @@ destacats:
   - icon: touch_app
     link: 'http://confluence.uoc.edu'
     title: Portal intern de l'Àrea de Tecnologia de la UOC
+	destacat: true
   - icon: touch_app
     link: /estandards/nomenclatura
     title: >-
       Presentació del procediment per la gestió i execució dels projectes
       tecnològics a la UOC
+	destacat: false
   - icon: touch_app
     link: /procediments/gestio
     title: Cicle de vida de la gestió de projectes tecnològics a la UOC
+	destacat: false
   - icon: touch_app
     link: /procediments/execucio
     title: Cicle de vida de l'execució de projectes tecnològics a la UOC
+	destacat: false
   - icon: touch_app
     link: /caixa/base_documental_gestio
     title: >-
       Descarrega la base documental per la gestió de projectes tecnològics a la
       UOC
+	destacat: false
   - icon: touch_app
     link: /caixa/base_documental_execucio
     title: >-
       Descarrega la base documental per l'execució de projectes tecnològics a la
       UOC
+	destacat: false
 ---

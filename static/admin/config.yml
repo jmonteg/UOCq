@@ -29,6 +29,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Títol", name: "title", widget: string}
           - {label: "Enllaç", name: "link", widget: string}
           - {label: "Material icon", name: "icon", widget: string}      
+          - {label: "Destacat?", name: "destacat", widget: checkbox}
     meta:
       - {label: "Date", name: "date", widget: "datetime"}
 
