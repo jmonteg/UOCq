@@ -8,8 +8,8 @@ description: >-
 weight: 1
 col_md: 2
 col_lg: 2
-bg: bg-alumni
-bgcolor: "#BD9EFF"
+bg: bg-primary inverse
+bgcolor: "#000078"
 ---
 Per començar, et recomanem llegeixis l'article [Nomenclatura de documents](/estandards/nomenclatura/), on trobaràs una introducció als documents i fluxes que son d'obligat ús en projectes tecnològics a UOC. 
 També pots trobar interessant la consulta de l'article [Ús de Drive en els projectes. Estructura i permisos](/estandards/us_drive/), on s'explica l'estructura comuna del repositori Drive, i de com Drive s'ha de configurar per a que els diferents actors del projecte tinguin el nivell d'accés adequat
