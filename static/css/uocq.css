@@ -30,3 +30,6 @@ hr {
   text-align: right;
 }
 
+ul.home_destacats li:first-child{
+  font-size: 1.2em;
+}

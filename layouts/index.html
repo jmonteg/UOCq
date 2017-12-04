@@ -40,7 +40,7 @@
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6">
                 <h4>Destacats</h4>
-                <ul>
+                <ul class="home_destacats">
                     {{ range $p.Params.destacats }}
                     <li><a href="{{.link}}"><i class="material-icons">{{.icon}}</i>{{.title}}</a></li>
                     {{ end }}                
