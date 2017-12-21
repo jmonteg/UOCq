@@ -7,7 +7,7 @@ description: >-
   tècniques i d’arquitectura i assegurament de la qualitat
 weight: 1
 col_md: 3
-bg: bg-primary
+bg: bg-primary inverse
 bgcolor: "#000078"
 ---
 Per començar, et recomanem llegeixis l'article [Nomenclatura de documents](/estandards/nomenclatura/), on trobaràs una introducció als documents i fluxes que son d'obligat ús en projectes tecnològics a UOC. 
