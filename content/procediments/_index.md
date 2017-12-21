@@ -6,6 +6,6 @@ description: >-
 weight: 2
 col_md: 3
 bg: bg-secondary
-bgcolor: "#73EDFF"
+bgcolor: "#000078"
 ---
 holaaaaa des de procediments.md
